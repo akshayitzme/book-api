@@ -20,7 +20,6 @@ let con= mysql.createConnection({
     password: process.env.DB_PASS,
     database: process.env.DB
 });
-console.log(con);
 app.listen(3000);
 
 // Index Route
